@@ -1,4 +1,4 @@
-/* text_iife.js */
+/* text_iife.js 
 // 텍스트 작성과 삭제 즉시 실행 함수
 (function(){
   const spanEl = document.querySelector("main h2 span");
@@ -26,7 +26,7 @@
     }
   }
   writeTxt();
-})();
+})();*/
 /* end text_iife.js */
 
 /* scroll_request.js */

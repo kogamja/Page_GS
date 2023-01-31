@@ -368,7 +368,7 @@ section.contact .contact-me .right button{
   transition: all 0.1s linear;
 }
 .portfolio-inner:hover img {
-  transform: scale(2.5);
+  transform: scale(1.1);
   border: solid 0.1px;
   border-color: rgb(92, 92, 92);
   
