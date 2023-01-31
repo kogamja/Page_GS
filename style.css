@@ -200,9 +200,9 @@ section .do-me::after{
 /* 사각형 크기와 간격, 내부 여백 설정 */
 section .do-me .do-inner{
   background-color:#fff;
-  width:30%;
-  padding:2rem; 
-  float:left;
+  width:100%;
+  padding:1rem; 
+  float:center;
   margin-right:5%;
   cursor:pointer;
 }
@@ -221,12 +221,16 @@ section .do-me .do-inner .content h3{
   margin:1rem 0;
 }
 /* 사각형 텍스트 크기 */
-section .do-me .do-inner .content p{
-  font-size:1.15rem;
+section .do-me .do-inner .content img{
+  font-size:1.0rem;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:100%;
 }
 /* do-inner 클래스에 마우스를 올리면 배경색과 텍스트 색상 변경 */
 section .do-me .do-inner:hover{
-  background-color:lightcoral;
+  background-color:rgb(255, 255, 255);
   color:white;
 }
 /* do-inner 클래스에 마우스를 올리면 아이콘 폰트 색상 변경 */
@@ -270,13 +274,15 @@ section.portfolio .portfolio-inner img{
 }
 /* strong 태그 색상과 간격 */
 section.portfolio .portfolio-inner strong{
-  color:#ff6a6a;
+  color:#ffffff;
   margin:0.5rem 0;
   display:block;
 }
 /* h3 태그 색상과 간격 */
 section.portfolio .portfolio-inner h3{
-  font-size:1.75rem;
+  font-size:1.3rem;
+  color: rgb(0, 0, 0);
+  text-align:center;
 }
 /* End portfolio.css */
 /* contact_with_me.css */
@@ -367,12 +373,13 @@ section.contact .contact-me .right button{
 .portfolio-inner img {
   transition: all 0.1s linear;
 }
+/*
 .portfolio-inner:hover img {
-  transform: scale(1.1);
+  transform: scale(1.0);
   border: solid 0.1px;
   border-color: rgb(92, 92, 92);
-  
-}
+}*/
+
 
 /* End contact_with_me.css */
 /* footer.css */
@@ -412,7 +419,7 @@ footer p{
 
   /* What I Do 영역의 콘텐츠 박스의 너비를 30% -> 48% 변경 */
   section .do-me .do-inner{
-    width:48%;
+    width:100%;
     margin-bottom: 1.5rem;
     margin-right: 0;
   }
