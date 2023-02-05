@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GS홈쇼핑그룹</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+<body id="main_top" style="background-color: rgba(224, 224, 224, 0.397);">
+    <div class="container-fluid" style="height: 100%;">
+        <!--header-->
+        <div class="row fixed-top" 
+        style="background-color: rgb(14, 18, 77); 
+              height: 100px;
+              border-radius: 0px 0px 25px 25px; 
+              padding-top: 30px; 
+              box-shadow: 0px 1px rgb(14, 18, 77);">
+
+            <div class="col-1 float-start ms-2">
+            <!--    <i class="bi bi-arrow-left" style="font-size: 18px; color: aliceblue;"></i> -->
+            </div>
+
+            <div class="col text-center" style="font-size: 30px; color: aliceblue;">GS홈쇼핑그룹</div>
+
+            <div class="col-1 float-end me-3">
+            <!--    <i class="bi bi-three-dots" style="font-size: 18px; color: aliceblue;"></i> -->
+            </div>
+        </div>
+
+        <!--body-->
+        <div class="container-fluid" style="margin-top: 110px; padding-bottom: 40px; font-size: 15px;">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <strong>홈쇼핑 운영 실적</strong>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div id="carouselExampleControls" class="carousel slide carousel-dark w-80"
+                                data-bs-ride="carousel" data-bs-touch="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card">
+                                            <img src="images/a01.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">'21-22 월별 물량 추이</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a02.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">'21-22 매출 추이</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a03.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">'21-22 평균 단가 추이</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a04.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">'21-22 영업이익 추이</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a05.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">전담 비율 </h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a06.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">전담별 물량 추이</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a07.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">전담 차량 현황</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a08.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">집배송율 현황</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a09.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">상위 20대 벤더사 현황</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="images/a10.PNG" class="card-img-top" alt="...">
+                                            <h2 class="card-title fs-5 fw-bold"
+                                                style="text-align: center; padding-top: 5px;">택배3사 물량 점유율</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <strong>전략영업팀 실적</strong>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <div id="carouselExampleControls1" class="carousel slide carousel-dark w-80"
+                                data-bs-ride="carousel" data-bs-touch="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/b12.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b11.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b10.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b9.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b8.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b7.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b6.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b5.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b4.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/b1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <strong>GS전담사 현황</strong>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f1.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">김포GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 오중석</li>
+                                                        <li>나이: 56세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '08.1.1</li>
+                                                        <li>운영연차: 15년</li>
+                                                        <li>차량대수: 36대</li>
+                                                        <li>연락처: 010-2411-3191</li>
+                                                        <li>집배구역: 강서, 양천, 부천, 김포</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f2.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">일산GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 이최희</li>
+                                                        <li>나이: 52세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '11.3.1</li>
+                                                        <li>운영연차: 12년</li>
+                                                        <li>차량대수: 27대</li>
+                                                        <li>연락처: 010-7182-2865</li>
+                                                        <li>집배구역: 고양, 은평, 파주(운정,금천)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f3.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">강북GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 박석철</li>
+                                                        <li>나이: 42세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '11.3.1</li>
+                                                        <li>운영연차: 12년</li>
+                                                        <li>차량대수: 36대</li>
+                                                        <li>연락처: 010-9634-0018</li>
+                                                        <li>집배구역: 강북, 도봉, 노원, 성북, 의정부, 남양주일부</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f4.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">강동GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 조재환</li>
+                                                        <li>나이: 45세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '18.1.1</li>
+                                                        <li>운영연차: 5년</li>
+                                                        <li>차량대수: 37대</li>
+                                                        <li>연락처: 010-5218-0907</li>
+                                                        <li>집배구역: 강동, 중랑, 송파일부, 하남, 구리, 성남수정구 등</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f5.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">강남GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 김성화</li>
+                                                        <li>나이: 43세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '14.1.1</li>
+                                                        <li>운영연차: 9년</li>
+                                                        <li>차량대수: 24대</li>
+                                                        <li>연락처: 010-5675-8894</li>
+                                                        <li>집배구역: 서초, 강남, 송파일부</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f6.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">중앙GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 이정구</li>
+                                                        <li>나이: 50세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '22.3.1</li>
+                                                        <li>운영연차: 2년</li>
+                                                        <li>차량대수: 26대</li>
+                                                        <li>연락처: 010-9349-0588</li>
+                                                        <li>집배구역: 광진, 성동, 동대문, 용산, 마포, 서대문, 중구</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f7.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">구로GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 김인수</li>
+                                                        <li>나이: 65세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '06.8.1</li>
+                                                        <li>운영연차: 17년</li>
+                                                        <li>차량대수: 41대</li>
+                                                        <li>연락처: 010-8981-8044</li>
+                                                        <li>집배구역: 관악, 동작, 영등포, 금천, 구로, 광명시, 안양</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f8.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">군포GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 허진우</li>
+                                                        <li>나이: 60세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '09.5.1</li>
+                                                        <li>운영연차: 14년</li>
+                                                        <li>차량대수: 26대</li>
+                                                        <li>연락처: 010-5703-2133</li>
+                                                        <li>집배구역: 수원, 의왕시,군포시, 화성시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f9.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">안산GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 임재억</li>
+                                                        <li>나이: 57세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '17.4.1</li>
+                                                        <li>운영연차: 6년</li>
+                                                        <li>차량대수: 17대</li>
+                                                        <li>연락처: 010-2437-4174</li>
+                                                        <li>집배구역: 안산시, 시흥시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f10.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">인천GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 장창균</li>
+                                                        <li>나이: 44세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '08.9.1</li>
+                                                        <li>운영연차: 15년</li>
+                                                        <li>차량대수: 45대</li>
+                                                        <li>연락처: 010-4922-2064</li>
+                                                        <li>집배구역: 인천시(도서 제외)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f11.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">분당GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 송이영</li>
+                                                        <li>나이: 64세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '22.4.1</li>
+                                                        <li>운영연차: 2년</li>
+                                                        <li>차량대수: 26대</li>
+                                                        <li>연락처: 010-7582-5820</li>
+                                                        <li>집배구역: 성남분당, 수지, 기흥, 광주오포일부</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f12.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">평택GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 임재희</li>
+                                                        <li>나이: 43세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '10.8.1</li>
+                                                        <li>운영연차: 13년</li>
+                                                        <li>차량대수: 8대</li>
+                                                        <li>연락처: 010-8785-5551</li>
+                                                        <li>집배구역: 평택시, 오산시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f13.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">광주GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 이희상</li>
+                                                        <li>나이: 48세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '19.3.1</li>
+                                                        <li>운영연차: 4년</li>
+                                                        <li>차량대수: 23대</li>
+                                                        <li>연락처: 010-9240-8469</li>
+                                                        <li>집배구역: 광주시(일부외곽제외)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f14.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">순천GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 강영현</li>
+                                                        <li>나이: 59세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '16.10.1</li>
+                                                        <li>운영연차: 7년</li>
+                                                        <li>차량대수: 9대</li>
+                                                        <li>연락처: 010-3859-4025</li>
+                                                        <li>집배구역: 순천시, 광양시, 여수시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f15.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">전주GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 이원식</li>
+                                                        <li>나이: 53세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '10.1.1</li>
+                                                        <li>운영연차: 13년</li>
+                                                        <li>차량대수: 15대</li>
+                                                        <li>연락처: 010-7522-3234</li>
+                                                        <li>집배구역: 전주시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f16.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">대전GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 최상정</li>
+                                                        <li>나이: 69세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '15.3.2</li>
+                                                        <li>운영연차: 8년</li>
+                                                        <li>차량대수: 22대</li>
+                                                        <li>연락처: 010-5471-9287</li>
+                                                        <li>집배구역: 대전시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f17.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">청주GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 박용배</li>
+                                                        <li>나이: 48세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '08.3.1</li>
+                                                        <li>운영연차: 15년</li>
+                                                        <li>차량대수: 10대</li>
+                                                        <li>연락처: 010-8848-3767</li>
+                                                        <li>집배구역: 청주시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f18.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">대구GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 선희철</li>
+                                                        <li>나이: 58세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '19.3.1</li>
+                                                        <li>운영연차: 4년</li>
+                                                        <li>차량대수: 26대</li>
+                                                        <li>연락처: 010-2450-4591</li>
+                                                        <li>집배구역: 대구시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f19.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">남부산GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 김광연</li>
+                                                        <li>나이: 62세</li>
+                                                        <li>출신: GS</li>
+                                                        <li>최초계약: '20.9.1</li>
+                                                        <li>운영연차: 3년</li>
+                                                        <li>차량대수: 43대</li>
+                                                        <li>연락처: 010-4016-3458</li>
+                                                        <li>집배구역: 해운대, 기장, 연제, 수영, 동, 중, 남, 서, 영도,
+                                                            부산동래, 금정,부산진(강서, 기장 제외)
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f20.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">김해GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 강승우</li>
+                                                        <li>나이: 59세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '17.4.1</li>
+                                                        <li>운영연차: 6년</li>
+                                                        <li>차량대수: 16대</li>
+                                                        <li>연락처: 010-3571-8369</li>
+                                                        <li>집배구역: 김해시, 부산북구, 사상구</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content">
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f21.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">울산GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 최정호</li>
+                                                        <li>나이: 58세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '08.1.1</li>
+                                                        <li>운영연차: 15년</li>
+                                                        <li>차량대수: 15대</li>
+                                                        <li>연락처: 010-3582-0155</li>
+                                                        <li>집배구역: 울산시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col container-fluid" style="margin-bottom: 5px;">
+                                    <div class="card">
+                                        <div style="text-align: center;">
+                                            <img class="card-img-top" src="images/f20.PNG" alt="..."
+                                                style="width: 150px; height: 150px; padding-top: 3px;">
+                                        </div>
+                                        <div class="card-body p-1">
+                                            <div class="text-center">
+                                                <h5 class="fw-bolder">창원GS전담</h5>
+                                                <div style="text-align: left; font-size: 12px;">
+                                                    <ul style="font-weight: 600;">
+                                                        <li>이름: 강승우</li>
+                                                        <li>나이: 59세</li>
+                                                        <li>출신: HJ</li>
+                                                        <li>최초계약: '17.4.1</li>
+                                                        <li>운영연차: 6년</li>
+                                                        <li>차량대수: 13대</li>
+                                                        <li>연락처: 010-3571-8369</li>
+                                                        <li>집배구역: 창원시</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapse-4" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapse-4">
+                            <strong>프로젝트 진행사항</strong>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapse-4" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-heading-4">
+                        <div class="accordion-body">
+                            <div class="row justify-content">
+                                <div>
+                                    <div class="card-body">
+                                        <div class="row justify-content">
+                                        <table class="table table-hover table-striped" style="font-size: 13px;">
+                                            <thead class="table-success">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">프로젝트</th>
+                                                    <th scope="col">진행자</th>
+                                                    <th scope="col">진행상태</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody style="font-weight: bold;">
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>운송장 오출력 방지</td>
+                                                    <td>고건영</td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="badge bg-warning">진행중 5%</div>
+                                                           <!-- <div class="badge bg-success">완료</div> -->
+                                                           <!-- <div class="badge bg-danger">보류</div> -->
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>미출력 자동알림</td>
+                                                    <td>고건영</td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="badge bg-warning">진행중 5%</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>아모레물량 GS전담 전환</td>
+                                                    <td>고건영</td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="badge bg-success">완료</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="row fixed-bottom" style="height: 40px; 
+                    box-shadow: 0px -2px 5px silver;
+                    background-color: rgb(255, 255, 255);">
+            <div class="col text-center" style="padding-top: 5px;">
+                <A href="#top">
+                    <i class="bi bi-house-fill" style="font-size: 18px; color: rgb(255, 0, 0);"></A></i>
+            </div>
+            <div class="col text-center" style="padding-top: 5px;">
+                <a href="mailto:kyko@hanjin.com">
+                <i class="bi-envelope-open-fill" style="font-size: 18px; color: rgb(0, 0, 255);"></A></i>
+            </div>
+            <div class="col text-center" style="padding-top: 5px;">
+                <i class="bi bi-gear-fill" style="font-size: 18px; color: rgb(64, 64, 65);"></i>
+            </div>
+            <div class="col text-center" style="padding-top: 5px;">
+                <i class="bi bi-list" style="font-size: 18px; color: rgb(64, 64, 65);"></i>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
